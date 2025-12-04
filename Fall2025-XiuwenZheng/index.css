@@ -213,22 +213,19 @@ main {
 }
 
 
-/*i think i need to put the image here, but for some reason it's not working*/
 
-/*.common-area {
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
-}*/
 
 .common-area {
-    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+
+    background-image: url('../images/common_area.png');
 }
 
 .quiet-room {
-    background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+    background-image: url("../images/quiet_room.png");
 }
 
 .conference-room {
-    background: linear-gradient(45deg, #ffecd2, #fcb69f);
+    background: url("../images/conference_room.png");
 }
 
 
